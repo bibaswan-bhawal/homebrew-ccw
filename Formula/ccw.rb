@@ -1,24 +1,24 @@
 class Ccw < Formula
   desc "Manage git worktrees with persistent Claude Code sessions"
   homepage "https://github.com/bibaswan-bhawal/ccw"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/bibaswan-bhawal/ccw/releases/download/v#{version}/ccw-macos-arm64"
-      sha256 "31a30d02d5eba2013a45611757c376c7433dc1d39f89f069deb0f16c9148919a"
+      sha256 "4161643e6cdda11b90163ded30b33e25706c363c54fc045ee9539ceba958c4dd"
     end
     on_intel do
       url "https://github.com/bibaswan-bhawal/ccw/releases/download/v#{version}/ccw-macos-x64"
-      sha256 "adb1508ad14fa1fda1acef4e7fe972f041b8df57fb5bfa6274137ecda7658e06"
+      sha256 "dcbe494e3e15446a72ffe058d30378a0f1d2fe942e9e3e60877e52f14042c42f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bibaswan-bhawal/ccw/releases/download/v#{version}/ccw-linux-x64"
-      sha256 "1b05ba368616ca579b3d7dcb768e73b6da18ce850fccf41326b838c14e012808"
+      sha256 "35cd60b930495f577cadf0ce10e466bfa38de8212f1df361b49aa74ef7927b8a"
     end
   end
 
